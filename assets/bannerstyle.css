@@ -1,6 +1,15 @@
+/*
+* CSS STYLESHEET
+*/
 
 /*
------ color key and other variables
+* PRIMARY STYLE DEFINITIONS
+* Important brand colors, fonts, etc. should be defined
+* up here, and var(--variable-name) used everywhere else
+* to point back here. 
+*
+* This lets us change important website design parameters
+* from a single convenient place
 */
 :root {
     --white:rgb(255, 243, 223);
@@ -11,26 +20,45 @@
     --green: rgb(72, 214, 67);
     --ltgreen: rgb(176, 247, 187);
 } 
+
 /*
------ font and background styles for text 
+* CONTENT AREAS
+* this is how we style the vast majority of what appears on the page
 */
-.logo {
-        box-shadow: 2px 2px 4px var(--white);
-}
+
+/* BODY styles apply by default to everything */
 body {
     background-image: radial-gradient(var(--white),var(--purple));
     color: var(--white);
     font-family: Ubuntu, Roboto, Arial, sans;
-} h1 {
+} 
+
+/* H1 thru H4 styles apply to headlines, with 1 being largest headings */
+h1 {
     font-size: 13vw;
     text-shadow: -2px 2px 8px var(--white);
 } h2 {
      font-size: 8vw;
 } h3 {
      font-size: 5vw;
-} a {
+} 
+
+/* A styles apply to links */ 
+a {
     font-size: 3vw;
-} article {
+}
+
+/* IMG styles apply to images */
+img {
+    font-size: 3vw;
+}
+
+/* FORM styles apply to user-submittable forms */
+form {
+    font-size: 3vw;
+}
+/* ARTICLE styles apply to sections of content */
+article {
     background-color: var(--white);
     color: var(--black);
     box-shadow: 2px 2px 4px var(--black);
@@ -39,7 +67,9 @@ body {
 } 
 
 /*
------ positioning for main content boxes
+* LAYOUT & POSITIONING
+* this makes sure the banner, navbar, and main content areas are
+* all in correct position and resize properly on different devices
 */
 #banner {
     background: var(--aqua);
@@ -53,6 +83,8 @@ body {
     display: inline-block;
     padding: 10px;
     align-self: bottom;
+}.logo {
+    box-shadow: 2px 2px 4px var(--white);
 } #navbar {
     position: relative;
     top: -10vw;
@@ -61,8 +93,11 @@ body {
 } #main {
     clear: both;
 }
+
 /*
------ nav bar functionality
+* NAVBAR FUNCTIONALITY
+* this makes the navbar buttons display in a list, appear as block items,
+* and change colors when hovered over.
 */
 ul.sideways {
     list-style-type: none;
@@ -71,21 +106,21 @@ ul.sideways {
 } ul.sideways li {
     display: inline;
     float: left;
-} ul.sideways li a {
+} ul li a {
     display: block;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
     color: currentColor;
     box-shadow: 2px 2px 4px var(--black);
-} a:link {
+} ul li a:link {
     background-color: var(--green);
-} a:visited{
+} ul li a:visited{
     background-color: var(--green);
-} a:hover{
+} ul li a:hover{
     background-color: var(--ltgreen);
-} a:active {
+} ul li a:active {
     background-color: var(--black);
-} a.current {
+} ul li a.current {
     background-color: var(--black);
 }
