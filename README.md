@@ -1,19 +1,25 @@
 # Welcome to...
-### the allinrva website
+### the allinrva.org website
 
 Hey All! it's Suzana
-this is github and this is our website. anyone on the team who
-makes an account and requests access can come here and make edits.
-Edits, once approved by someone with access, automatically publish
-to the site, almost immediately.
+this is github and this is our website. this is mostly just for me to
+refresh on some coding stuff and mess around. and try to avoid paying
+a single cent to put our name up online XD
+
+anyone on our team who makes an account and requests access can come 
+here and make edits.Edits, once approved by someone with access, 
+automatically publish to the site through netlify immediately. 
+
+sorry for any messy code or missing comments/ documentation. 
 
 
 ## The Files
 
 ### *.html
 There are 5 main pages for our site right now. index.html is the landing page.
-Everything else that ends in *.html is also a main site page. Html works with
-a system of carats and slashes >  <  /
+Everything else that ends in *.html is also a main site page. Most of html works with
+your plain english text, displayed as it is. HTML really only pays attention to three
+symbols: side carats and forward slashes  >  <  /
 ~~~~~
 <tag-name>
         <other-tag-name property="this is some code that you can probably ignore">
@@ -21,8 +27,8 @@ a system of carats and slashes >  <  /
                 Above are two opening tags called "tag-name" and "other-tag-name"
                 Below are two tags with the same exact name except they start with a /slash
                 Those are the closing tags! The opening and closing tag have to have
-                the same name, but the opening tag sometimes has some extra code after
-                the name.
+                the same name, and close in inside-out order. the opening tag sometimes
+                has some extra code after the name, still counts as the same name.
         </other-tag-name>
 </tag-name>
 ~~~~~
