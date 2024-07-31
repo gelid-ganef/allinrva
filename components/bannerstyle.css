@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*BANNERSTYLE.CSS -- STYLEs for the TOP-BANNER component
 * LAYOUT & POSITIONING
 * this makes sure the banner, navbar, and main content areas are
@@ -53,4 +54,61 @@ ul.sideways {
     background-color: var(--black);
 } ul li a.current {
     background-color: var(--black);
+=======
+/*BANNERSTYLE.CSS -- STYLEs for the TOP-BANNER component
+* LAYOUT & POSITIONING
+* this makes sure the banner, navbar, and main content areas are
+* all in correct position and resize properly on different devices
+*/
+#banner {
+    background: var(--aqua);
+    min-width: 100%;
+    height: 300px;
+    vertical-align: top;
+    padding: 0
+} .sub {
+    font-size: 6vw;
+    color: var(--red);
+    display: inline-block;
+    padding: 10px;
+    align-self: bottom;
+} .logo {
+    box-shadow: 2px 2px 4px var(--white);
+} #navbar {
+    position: relative;
+    top: -10vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*
+* NAVBAR FUNCTIONALITY
+* this makes the navbar buttons display in a list, appear as block items,
+* and change colors when hovered over.
+*/
+ul.sideways {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+} ul.sideways li {
+    display: inline;
+    float: left;
+} ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: currentColor;
+    box-shadow: 2px 2px 4px var(--black);
+} ul li a:link {
+    background-color: var(--green);
+} ul li a:visited{
+    background-color: var(--green);
+} ul li a:hover{
+    background-color: var(--ltgreen);
+} ul li a:active {
+    background-color: var(--black);
+} ul li a.current {
+    background-color: var(--black);
+>>>>>>> 475fa827d6cb579af14e7f6980c29c37546933b5
 }
