@@ -28,10 +28,22 @@ bannerTemplate.innerHTML = `
 class TopBanner extends HTMLElement {
     constructor() {
         super();
+        const shadowRoot = this.attachShadow({ mode: 'closed' });
+        shadowRoot.appendChild(bannerTemplate.content);
     }
     connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'closed' });
-        shadowRoot.appendChild(bannerTemplate.content)
+        this.setCurrentLink();
+    }
+    setCurrentLink() {
+        console.log(window.location.pathname);
+    //    for (let a of this.getElementsByTagName("a")) {
+    //        console.log(a);
+    //        if (a.getAttribute("href") == window.location.pathname) {
+    //            a.setAttribute("class", "current")
+    //        }
+    //    }
+    //    console.log(document.querySelectorAll('a'));
+    //    document.querySelectorAll('a').forEach(link => link.className += ' current-link');
     }
 }
 customElements.define("top-banner", TopBanner);
