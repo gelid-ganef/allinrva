@@ -13,21 +13,26 @@
     display: inline-block;
     padding: 10px;
     align-self: bottom;
+    text-shadow: -2px 2px 8px var(--white);
 }.logo {
-    box-shadow: 2px 2px 4px var(--white);
+    box-shadow: 2px 2px 8px var(--white);
 } #navbar {
     position: relative;
     top: -16px;
-    left: -24px;
+    left: calc(5vw - 75px);
     padding: 0px;
     margin: 0px;
 } li a {
     display: block;
     text-align: center;
-    padding: 10px 10px;
+    padding: 1vw;
     text-decoration: none;
     color: currentColor;
     box-shadow: 2px 2px 4px var(--black);
+    font-size: clamp(1em,2.5vw,7em);
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
 } li a:link {
     background-color: var(--green);
 } li a:visited{
@@ -43,7 +48,7 @@
 
 <div id=banner>
 <header>
-    <img src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
+    <img class="logo" src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
     <span class="sub">events in RVA</span>
 </header>
 <div id=navbar><nav>

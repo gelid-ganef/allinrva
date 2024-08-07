@@ -33,37 +33,44 @@ body {
     font-family: Ubuntu, Roboto, Arial, sans;
 } 
 
-/* H1 thru H4 styles apply to headlines, with 1 being largest headings */
+/* H1 thru H6 styles apply to headlines, with 1 being largest headings */
 h1 {
-    font-size: 11em;
-    text-shadow: -2px 2px 8px var(--white);
+    font-size: 8em;
+    font-weight: bolder;
 } h2 {
-    font-size: 7.5em;
+    font-size: 5.6em; 
+    font-weight: bolder;
 } h3 {
-    font-size: 5em;
+    font-size: 4em; 
+    font-weight: bold;
 } h4 {
-    font-size: 3em;
+    font-size: 2.8em; 
+    font-weight: bold;
 } h5 {
-    font-size: 2em;
+    font-size: 2em; 
+    font-weight: medium;
 } h6 {
-    font-size: 1.5em;
+    font-size: 1.4em; 
+    font-weight: medium;
 } p {
-    font-size: 1em;
+    font-size: 1em; 
+    font-weight: normal;
+} small {
+    font-size: .7em;
 }
 
 /* A styles apply to links */ 
- .sideways a {
-    font-size: clamp(1em,2.5vw,7em);
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 15px;
- }
+a {}
  
 /* IMG styles apply to images */
-img {}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* FORM styles apply to user-submittable forms */
 form {}
+
 /* ARTICLE styles apply to sections of content */
 article {
     background-color: var(--white);

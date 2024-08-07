@@ -18,9 +18,9 @@ layout: base-layout.html
     </article>
     <article>
         <h3>Queer space is precious!</h3>
-        <h3>
+        <h4>
             <date>September 1, 2024</date> All In @ Crescent Collective 2024!
-        </h3>
+        </h4>
         <p>Everyone mark your calendars for our upcoming event to nerd out
             chill out. We have plant experts coming to share all the tips you
             need to no longer be embarrassed by your neglected indoor covid
@@ -28,17 +28,19 @@ layout: base-layout.html
             us here or on insta for more forthcoming announcements! </p>
     </article>
     <article>
-        <h3>Coming soon in <date>October</date> Craft It Out x All In! @ Diversity 2024!</h3>
+        <h3>Coming soon in <date>October?/date></h3><h5> Craft It Out will be coming 
+        to Diversity Thrift in late 2024!</h5>
         <p>Turnout was so encouraging for our first <em>Craft It Out</em>, we'realready planning our next all-ages
             craft-til-you-drop with Diversity Richmond! Exact date TBD,follow us on instagram to make sure you stay
             informed of all our upcoming hijinx!</p>
     </article>
     <article>
-        <h3>
-            <date>July 20, 2024</date> All In x Craft It Out @ Childsavers!
-        </h3>
-        <p>We had a great time with a lovely group of kids and parents at our first <em>Craft It Out</em> event! More
-            craft events to come soon, watch this space! </p>
+        <h3>Craft It Out @ Childsavers!
+        </h3><date>July 20, 2024</date> 
+        <p>We had a great time with a lovely group of kids and parents at our 
+            first <em>Craft It Out</em> event! More
+            craft events to come soon, watch this space! 
+            <br>--All In team x </p>
     </article>
     <article>
         <h3>
