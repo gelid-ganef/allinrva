@@ -1,8 +1,50 @@
 <!--the banner class: logo, brand, navbar-->
-<div id=banner><header>
-    <h1><img src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
-        <span class="sub">events in RVA</span>
-    </h1>
+<style webc:keep>
+#banner {
+    background: var(--aqua);
+    min-width: 100%;
+    height: 300px;
+    vertical-align: top;
+    padding: 0
+    position: relative;
+} .sub {
+    font-size: clamp(2em,6vw,20em);
+    color: var(--red);
+    display: inline-block;
+    padding: 10px;
+    align-self: bottom;
+}.logo {
+    box-shadow: 2px 2px 4px var(--white);
+} #navbar {
+    position: relative;
+    top: -16px;
+    left: -24px;
+    padding: 0px;
+    margin: 0px;
+} li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: currentColor;
+    box-shadow: 2px 2px 4px var(--black);
+} li a:link {
+    background-color: var(--green);
+} li a:visited{
+    background-color: var(--green);
+} li a:hover{
+    background-color: var(--ltgreen);
+} li a:active {
+    background-color: var(--black);
+} li a.current {
+    background-color: var(--black);
+}
+</style>
+
+<div id=banner>
+<header>
+    <img src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
+    <span class="sub">events in RVA</span>
 </header>
 <div id=navbar><nav>
     <ul class="sideways">

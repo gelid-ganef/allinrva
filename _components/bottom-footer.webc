@@ -1,3 +1,36 @@
+<style webc:keep>
+
+.sides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 37);
+    color: rgb(199, 199, 199);
+}
+.links-footer a{
+    color: rgb(192, 192, 192);
+   text-decoration: none;
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+.links-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left p{
+font-size: 30px;
+}
+.right img{
+ width: 200px;
+}
+</style>
+
 <div class="footer">
 <article class="sides">
 <div class="left">
@@ -11,7 +44,7 @@
    </div>
 </div>
 <div class="right">
-    <img src="./assets/pansy_png.png" alt="">
+    <img src="/assets/pansy_png.png" alt="">
 </div>
 
 </article>
