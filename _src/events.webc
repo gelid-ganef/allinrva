@@ -93,3 +93,4 @@ layout: base-layout.html
           </form>
 </article>
 </div>
+<bottom-footer></bottom-footer>

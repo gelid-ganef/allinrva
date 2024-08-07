@@ -1,7 +1,6 @@
 ---
 layout: base-layout.html
 ---
-
 <top-banner></top-banner>
 <!--
 --This is the main content block of page
@@ -45,3 +44,4 @@ layout: base-layout.html
     </p>
 </form></article>
 </div>
+<bottom-footer></bottom-footer>

@@ -72,3 +72,4 @@ layout: base-layout.html
     </p>
 </article>
 </div>
+<bottom-footer></bottom-footer>

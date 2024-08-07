@@ -49,3 +49,4 @@ layout: base-layout.html
             300 hours, and our vendors showcased some really incredible work!</p>
     </article>
 </div>
+<bottom-footer></bottom-footer>
