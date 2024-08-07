@@ -33,33 +33,48 @@ body {
     font-family: Ubuntu, Roboto, Arial, sans;
 } 
 
-/* H1 thru H4 styles apply to headlines, with 1 being largest headings */
+/* H1 thru H6 styles apply to headlines, with 1 being largest headings */
 h1 {
-    font-size: 13vw;
-    text-shadow: -2px 2px 8px var(--white);
+    font-size: 8em;
+    font-weight: bolder;
 } h2 {
-     font-size: 8vw;
+    font-size: 5.6em; 
+    font-weight: bolder;
 } h3 {
-     font-size: 5vw;
-} 
+    font-size: 4em; 
+    font-weight: bold;
+} h4 {
+    font-size: 2.8em; 
+    font-weight: bold;
+} h5 {
+    font-size: 2em; 
+    font-weight: medium;
+} h6 {
+    font-size: 1.4em; 
+    font-weight: medium;
+} p {
+    font-size: 1em; 
+    font-weight: normal;
+} small {
+    font-size: .7em;
+}
 
 /* A styles apply to links */ 
- .sideways a {
-    font-size: 35px;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 15px;
- }
+a {
+    color:var(--purple)
+}
  
 /* IMG styles apply to images */
 img {
-    font-size: 3vw;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 /* FORM styles apply to user-submittable forms */
 form {
-    font-size: 3vw;
+    max-width: 90%;
 }
+
 /* ARTICLE styles apply to sections of content */
 article {
     background-color: var(--white);
@@ -74,26 +89,7 @@ article {
 * this makes sure the banner, navbar, and main content areas are
 * all in correct position and resize properly on different devices
 */
-#banner {
-    background: var(--aqua);
-    min-width: 100%;
-    height: 300px;
-    vertical-align: top;
-    padding: 0
-} .sub {
-    font-size: 6vw;
-    color: var(--red);
-    display: inline-block;
-    padding: 10px;
-    align-self: bottom;
-}.logo {
-    box-shadow: 2px 2px 4px var(--white);
-} #navbar {
-    position: relative;
-    top: -10vw;
-    padding: 0px;
-    margin: 0px;
-} #main {
+#main {
     clear: both;
 }
 
@@ -109,26 +105,7 @@ ul.sideways {
 } ul.sideways li {
     display: inline;
     float: left;
-} ul li a {
-    display: block;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    color: currentColor;
-    box-shadow: 2px 2px 4px var(--black);
-} ul li a:link {
-    background-color: var(--green);
-} ul li a:visited{
-    background-color: var(--green);
-} ul li a:hover{
-    background-color: var(--ltgreen);
-} ul li a:active {
-    background-color: var(--black);
-} ul li a.current {
-    background-color: var(--black);
-}
-
-
+} 
 .container{
     display: flex;
     flex-direction: row;
@@ -215,7 +192,6 @@ font-size: 45px;
 .friend .fr{
     align-items: center;
     margin-left: 750px;
-    
 }
 .services{
     display: flex;
@@ -227,33 +203,4 @@ font-size: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.sides{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: rgb(37, 37, 37);
-    color: rgb(199, 199, 199);
-}
-.links-footer a{
-    color: rgb(192, 192, 192);
-   text-decoration: none;
-   font-size: 25px;
-   margin-bottom: 20px;
-}
-.links-footer{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-.left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.left p{
-font-size: 30px;
-}
-.right img{
- width: 200px;
 }

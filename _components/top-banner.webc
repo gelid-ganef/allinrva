@@ -1,0 +1,62 @@
+<!--the banner class: logo, brand, navbar-->
+<style webc:keep>
+#banner {
+    background: var(--aqua);
+    min-width: 100%;
+    height: 300px;
+    vertical-align: top;
+    padding: 0
+    position: relative;
+} .sub {
+    font-size: clamp(2em,6vw,20em);
+    color: var(--red);
+    display: inline-block;
+    padding: 10px;
+    align-self: bottom;
+    text-shadow: -2px 2px 8px var(--white);
+}.logo {
+    box-shadow: 2px 2px 8px var(--white);
+} #navbar {
+    position: relative;
+    top: -16px;
+    left: calc(5vw - 75px);
+    padding: 0px;
+    margin: 0px;
+} li a {
+    display: block;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    color: currentColor;
+    box-shadow: 2px 2px 4px var(--black);
+    font-size: clamp(1em,2.5vw,7em);
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+} li a:link {
+    background-color: var(--green);
+} li a:visited{
+    background-color: var(--green);
+} li a:hover{
+    background-color: var(--ltgreen);
+} li a:active {
+    background-color: var(--black);
+} li a.current {
+    background-color: var(--black);
+}
+</style>
+
+<div id=banner>
+<header>
+    <img class="logo" src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
+    <span class="sub">events in RVA</span>
+</header>
+<div id=navbar><nav>
+    <ul class="sideways">
+        <li><a class="current" href="/index.html">home</a></li>
+        <li><a href="/about">about us</a></li>
+        <li><a href="/blog">stories</a></li>
+        <li><a href="/events">plan an event</a></li>
+        <li><a href="/volunteer">get involved</a></li>
+    </ul>
+</nav></div></div>

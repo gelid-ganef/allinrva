@@ -1,0 +1,54 @@
+---
+layout: base-layout.html
+---
+<top-banner></top-banner>
+<!--
+--this is the main content block of the page
+--We want this to reflect our past events, to show off the
+--cool experiences we've created, but also to be one of the 
+--go-to places for info about upcoming events.
+-- ~~~~suzi
+-->
+<div id=main>
+    <article hidden>
+        <h3>
+            <date>next date</date> Next Announced Event
+        </h3>
+        <p>lorem ipsum etcetera and so on blah blah blah</p>
+    </article>
+    <article>
+        <h3>Queer space is precious!</h3>
+        <h4>
+            <date>September 1, 2024</date> All In @ Crescent Collective 2024!
+        </h4>
+        <p>Everyone mark your calendars for our upcoming event to nerd out
+            chill out. We have plant experts coming to share all the tips you
+            need to no longer be embarrassed by your neglected indoor covid
+            jungle. We have live guitar restrings and tune-ups. Keep following
+            us here or on insta for more forthcoming announcements! </p>
+    </article>
+    <article>
+        <h3>Coming soon in <date>October?/date></h3><h5> Craft It Out will be coming 
+        to Diversity Thrift in late 2024!</h5>
+        <p>Turnout was so encouraging for our first <em>Craft It Out</em>, we'realready planning our next all-ages
+            craft-til-you-drop with Diversity Richmond! Exact date TBD,follow us on instagram to make sure you stay
+            informed of all our upcoming hijinx!</p>
+    </article>
+    <article>
+        <h3>Craft It Out @ Childsavers!
+        </h3><date>July 20, 2024</date> 
+        <p>We had a great time with a lovely group of kids and parents at our 
+            first <em>Craft It Out</em> event! More
+            craft events to come soon, watch this space! 
+            <br>--All In team x </p>
+    </article>
+    <article>
+        <h3>
+            <date>June 29, 2024</date> All In @ Studio Two Three 2024!
+        </h3>
+        <p>Thanks all for coming out to all in at Studio two three!
+            Our turnout was over 600 attendees, our volunteers worked a combine
+            300 hours, and our vendors showcased some really incredible work!</p>
+    </article>
+</div>
+<bottom-footer></bottom-footer>
