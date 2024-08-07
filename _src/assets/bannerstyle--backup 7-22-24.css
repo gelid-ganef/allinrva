@@ -1,0 +1,91 @@
+
+/*
+----- color key and other variables
+*/
+:root {
+    --white:rgb(255, 243, 223);
+    --purple: rgb(164, 105, 204);
+    --red: rgb(221, 83, 106);
+    --black: rgb(56, 48, 74);
+    --aqua: rgb(86, 179, 179);
+    --green: rgb(133, 214, 130);
+    --ltgreen: rgb(176, 247, 187);
+} 
+/*
+----- font and background styles for text 
+*/
+.logo {
+        box-shadow: 2px 2px 4px var(--white);
+}
+body {
+    background-image: radial-gradient(var(--white),var(--purple));
+    color: var(--white);
+    font-family: Ubuntu, Roboto, Arial, sans;
+} h1 {
+    font-size: 13vw;
+    text-shadow: -2px 2px 8px var(--white);
+} h2 {
+     font-size: 8vw;
+} h3 {
+     font-size: 5vw;
+} a {
+    font-size: 3vw;
+} article {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 2px 2px 4px var(--black);
+    padding: 50px;
+    margin: 50px;
+} 
+
+/*
+----- positioning for main content boxes
+*/
+#banner {
+    background: var(--aqua);
+    min-width: 100%;
+    height: 300px;
+    vertical-align: top;
+    padding: 0
+} .sub {
+    font-size: 6vw;
+    color: var(--red);
+    display: inline-block;
+    padding: 10px;
+    align-self: bottom;
+} #navbar {
+    position: relative;
+    top: -10vw;
+    padding: 0px;
+    margin: 0px;
+} #main {
+    clear: both;
+}
+/*
+----- nav bar functionality
+*/
+ul.sideways {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+} ul.sideways li {
+    display: inline;
+    float: left;
+} ul.sideways li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: currentColor;
+    box-shadow: 2px 2px 4px var(--black);
+} a:link {
+    background-color: var(--green);
+} a:visited{
+    background-color: var(--green);
+} a:hover{
+    background-color: var(--ltgreen);
+} a:active {
+    background-color: var(--black);
+} a.current {
+    background-color: var(--black);
+}
