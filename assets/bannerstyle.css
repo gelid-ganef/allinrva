@@ -60,16 +60,20 @@ h1 {
 }
 
 /* A styles apply to links */ 
-a {}
+a {
+    color:var(--purple)
+}
  
 /* IMG styles apply to images */
 img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 /* FORM styles apply to user-submittable forms */
-form {}
+form {
+    max-width: 90%;
+}
 
 /* ARTICLE styles apply to sections of content */
 article {
