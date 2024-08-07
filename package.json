@@ -2,9 +2,9 @@
   "name": "allinrva",
   "version": "1.0.0",
   "description": "Hey All! it's Suzana\r this is github and this is our website. this is mostly just for me to\r refresh on some coding stuff and mess around. and try to avoid paying\r a single cent to put our name up online XD",
-    "scripts": {
+  "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --incremental",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.11.2"
   }
 }

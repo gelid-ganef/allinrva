@@ -1,35 +1,22 @@
- <!doctype = html>
-<html lang="en"><head>
-    <!--
---this is how the websites tab is labeled on a browser, and the icon that displays
--->
-    <title>All In! Events in RVA</title>
-    <link rel="icon" href="./assets/pansy.jpg" />
-<!--
---links to fonts & style sheets
--->
-    <meta name="viewport" content="width=500, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/bannerstyle.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-</head><body>
-<!--
---the banner class: logo, brand, navbar
--->
-    <div id=banner><header>
-        <h1><img src="./assets/logo_lg.png" ; alt="All In!" ; height=200 />
-            <span class="sub">events in RVA</span>
-        </h1>
-    </header>
-    <div id=navbar><nav>
-        <ul class="sideways">
-            <li><a href="./index.html">home</a></li>
-            <li><a class="current" href="./about.html">about us</a></li>
-            <li><a href="./blog.html">stories</a></li>
-            <li><a href="./events.html">plan an event</a></li>
-            <li><a href="./volunteer.html">get involved</a></li>
-        </ul>
-    </nav></div></div>
-<hr />
+---
+layout: base-layout.html
+---
+
+<!--the banner class: logo, brand, navbar-->
+<div id=banner><header>
+    <h1><img src="./assets/logo_lg.png" ; alt="All In!" ; height=200 />
+        <span class="sub">events in RVA</span>
+    </h1>
+</header>
+<div id=navbar><nav>
+    <ul class="sideways">
+        <li><a href="./index.html">home</a></li>
+        <li><a class="current" href="./about.html">about us</a></li>
+        <li><a href="./blog.html">stories</a></li>
+        <li><a href="./events.html">plan an event</a></li>
+        <li><a href="./volunteer.html">get involved</a></li>
+    </ul>
+</nav></div></div>
 <!--
 --This is the main content block of page
 --We want this to have most of the important information
@@ -38,66 +25,65 @@
 --a vibe I think.
 -- ~~~~suzi
 -->
-    <div id=main><article>
-        <h3>We Are <em>All In!</em></h3>
-        <p>And we love creating exciting and inclusive events that
-            bring people together and build community! With our small
-            but growing team of artists, musicians, chefs, designers,
-            and more, we hope to deliver a party that will have you And
-            your friends going <em>all in</em> to have an <em>all out</em>
-            good time!
-        </p>
-    </article>
-     <img src="./assets/team_photo.jpg" alt="Inside on floor Trubbs, Leg, and other All In! team crafting and laughing" />
-     <article>
-        <h3>Our Story</h3>
-        <p>Starting with a few small events during the pandemic
-            to promote local beauty and wellness businesses, we've grown to 
-            a small army of employees and volunteers, working to promote local
-            craftspeople and service providers, and to give back to the local
-            communities and local scenes we love! Our business and our private
-            events all go back to supporting that mission. 
-        </p>
-    </article><article>
-        <h3>Our People</h3>
-        <p>Proudly femme- and queer- owned and operated in Richmond, VA
-            since 2020, our passion for diversity and inclusion is the reason
-            why we do what we do! So we design our events around equity, accessibility,
-            and inclusion, because we design parties our friends could come to.
-            A party without exclusion. A party that's <em>All In!</em>
-        </p>
-    </article>
-     <img src="./assets/leg_headshot.jpg" alt="Leigh Anne outside at event venue, grinning, with blonde pixie cut, black dress" />
-     <article>
-        <h3>Leigh Anne Zylstra "Leg!"</h3>
-        <p>Entrepreneur, influencer, and licensed social worker with a Master's from VCU, Leigh Anne
-         has a broad skill set and diverse array of projects. But perhaps what defines her most is the
-         deep dedication she applies to every passion project, whether it be running a group home,
-         starting a gluten-free baking company, or planning her next concert adventure with a squad
-         of friends.
-        </p>
-    </article>
-     <img src="./assets/trubbs_headshot.jpg" alt="Trubbs inside at event venue, laughing, with close cropped hair, suit jacket" />
-     <article>
-        <h3>Trouble Medas "Trubbs!"</h3>
-        <p>Organizer and activist with 20 years of experience in human services, caring industries,
-         and non-profit work. Trubbs' is a community builder, and their sense of vocation for
-         Richmond and especially the local queer community drives their work. In addition to event
-         planning they work as a Healthcare Coordinator for local mental health non-profit Childsavers.
-         There are rumors they are currently recording a solo singer-songwriter project.
-        </p>
-    </article>
-     <img src="" alt="pic of suz" />
-     <article>
-        <h3>Suzana Chambers "Suzi!"</h3>
-        <p><em>Suz's bio goes here</em>
-        </p>
-    </article>
-     <img src="" alt="pic of al" />
-     <article>
-        <h3> "Al!"</h3>
-        <p><em>Al's bio goes here</em>
-        </p>
-    </article>
-    </div>
-</body></html>
+<div id=main><article>
+    <h3>We Are <em>All In!</em></h3>
+    <p>And we love creating exciting and inclusive events that
+        bring people together and build community! With our small
+        but growing team of artists, musicians, chefs, designers,
+        and more, we hope to deliver a party that will have you And
+        your friends going <em>all in</em> to have an <em>all out</em>
+        good time!
+    </p>
+</article>
+ <img src="./assets/team_photo.jpg" alt="Inside on floor Trubbs, Leg, and other All In! team crafting and laughing" />
+ <article>
+    <h3>Our Story</h3>
+    <p>Starting with a few small events during the pandemic
+        to promote local beauty and wellness businesses, we've grown to 
+        a small army of employees and volunteers, working to promote local
+        craftspeople and service providers, and to give back to the local
+        communities and local scenes we love! Our business and our private
+        events all go back to supporting that mission. 
+    </p>
+</article><article>
+    <h3>Our People</h3>
+    <p>Proudly femme- and queer- owned and operated in Richmond, VA
+        since 2020, our passion for diversity and inclusion is the reason
+        why we do what we do! So we design our events around equity, accessibility,
+        and inclusion, because we design parties our friends could come to.
+        A party without exclusion. A party that's <em>All In!</em>
+    </p>
+</article>
+ <img src="./assets/leg_headshot.jpg" alt="Leigh Anne outside at event venue, grinning, with blonde pixie cut, black dress" />
+ <article>
+    <h3>Leigh Anne Zylstra "Leg!"</h3>
+    <p>Entrepreneur, influencer, and licensed social worker with a Master's from VCU, Leigh Anne
+     has a broad skill set and diverse array of projects. But perhaps what defines her most is the
+     deep dedication she applies to every passion project, whether it be running a group home,
+     starting a gluten-free baking company, or planning her next concert adventure with a squad
+     of friends.
+    </p>
+</article>
+ <img src="./assets/trubbs_headshot.jpg" alt="Trubbs inside at event venue, laughing, with close cropped hair, suit jacket" />
+ <article>
+    <h3>Trouble Medas "Trubbs!"</h3>
+    <p>Organizer and activist with 20 years of experience in human services, caring industries,
+     and non-profit work. Trubbs' is a community builder, and their sense of vocation for
+     Richmond and especially the local queer community drives their work. In addition to event
+     planning they work as a Healthcare Coordinator for local mental health non-profit Childsavers.
+     There are rumors they are currently recording a solo singer-songwriter project.
+    </p>
+</article>
+ <img src="" alt="pic of suz" />
+ <article>
+    <h3>Suzana Chambers "Suzi!"</h3>
+    <p><em>Suz's bio goes here</em>
+    </p>
+</article>
+ <img src="" alt="pic of al" />
+ <article>
+    <h3> "Al!"</h3>
+    <p><em>Al's bio goes here</em>
+    </p>
+</article>
+</div>
