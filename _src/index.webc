@@ -1,9 +1,6 @@
 ---
 layout: base-layout.html
 ---
-<!--
---the banner class: logo, brand, navbar
--->
 <top-banner></top-banner>
 <!--
 --This is the main content block of page

@@ -1,3 +1,4 @@
+<!--the banner class: logo, brand, navbar-->
 <div id=banner><header>
     <h1><img src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
         <span class="sub">events in RVA</span>
