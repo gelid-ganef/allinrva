@@ -48,7 +48,7 @@
 
 <div id=banner>
 <header>
-    <img class="logo" src="/assets/logo_lg.png" ; alt="All In!" ; height=200 />
+    <img class="logo" src="/assets/flag_logo.webp" ; alt="All In!" ; height=200 />
     <span class="sub">events in RVA</span>
 </header>
 <div id=navbar><nav>

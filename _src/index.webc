@@ -38,7 +38,7 @@ layout: base-layout.html
     </div>
     <p>Check us out at our other online presence locations!</p>
         </div>
-    <img src="./assets/pansy_png.png" alt="">
+    <img src="./assets/logo.webp" alt="">
 </article>
 
 <article class="friends">
