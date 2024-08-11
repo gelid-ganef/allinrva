@@ -14,7 +14,8 @@
 :root {
     --white:rgb(237, 227, 248);
     --purple: rgb(167, 118, 200);
-    --red: rgb(235, 54, 111);
+    --ltpurple: rgb(207, 158, 250);
+    --red: rgb(225,96,118);
     --black: rgb(49, 0, 46);
     --aqua: rgb(76, 193, 193);
     --green: rgb(72, 214, 67);
@@ -22,8 +23,8 @@
     --orange: rgb(240, 200, 0);
 
     --banner-background: var(--aqua);
-    --banner-button: var(--grn);
-    --banner-button-pressed: var(--ltgrn);
+    --banner-button: var(--purple);
+    --banner-button-pressed: var(--ltpurple);
     --banner-button-current: var(--black);
     --banner-button-text: var(--white);
     --banner-subtitle: var(--red);
@@ -36,7 +37,7 @@
 
 /* BODY styles apply by default to everything */
 body {
-    background-image: radial-gradient(var(--white),var(--orange));
+    background-image: radial-gradient(var(--orange),var(--white));
     color: var(--white);
     font-family: Ubuntu, Roboto, Arial, sans;
 } 
@@ -50,7 +51,6 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     font-size: 6em;
     font-weight: bolder, bold;
-    padding:
 } h2 {
     font-size: 4em; 
     font-weight: bolder, bold;
@@ -74,12 +74,11 @@ h1 {
 } small {
     font-size: .7em;
     font-weight: normal;
-}
-
-a { /* A styles apply to links */ 
+    line-height: 1.5em;
+} a { /* A styles apply to links */ 
     color:var(--purple)
 }
- 
+
 /* IMG styles apply to images */
 img {
     max-width: 90vw;
@@ -90,6 +89,19 @@ img {
 /* FORM styles apply to user-submittable forms */
 form {
     max-width: 90%;
+} label {
+    width: 100%;
+    text-align: center;
+} textarea {
+    width: 100%;
+    resize: 
+} select {
+    width: 100%;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 2em;
 }
 
 /* ARTICLE styles apply to sections of content */
