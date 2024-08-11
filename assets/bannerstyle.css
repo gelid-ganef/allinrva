@@ -12,13 +12,21 @@
 * from a single convenient place
 */
 :root {
-    --white:rgb(255, 243, 223);
+    --white:rgb(237, 227, 248);
     --purple: rgb(167, 118, 200);
     --red: rgb(235, 54, 111);
-    --black: rgb(56, 48, 74);
+    --black: rgb(49, 0, 46);
     --aqua: rgb(76, 193, 193);
     --green: rgb(72, 214, 67);
     --ltgreen: rgb(176, 247, 187);
+    --orange: rgb(240, 200, 0);
+
+    --banner-background: var(--aqua);
+    --banner-button: var(--grn);
+    --banner-button-pressed: var(--ltgrn);
+    --banner-button-current: var(--black);
+    --banner-button-text: var(--white);
+    --banner-subtitle: var(--red);
 } 
 
 /*
@@ -28,39 +36,47 @@
 
 /* BODY styles apply by default to everything */
 body {
-    background-image: radial-gradient(var(--white),var(--purple));
+    background-image: radial-gradient(var(--white),var(--orange));
     color: var(--white);
     font-family: Ubuntu, Roboto, Arial, sans;
 } 
 
 /* H1 thru H6 styles apply to headlines, with 1 being largest headings */
-h1 {
-    font-size: 8em;
-    font-weight: bolder;
-} h2 {
-    font-size: 5.6em; 
-    font-weight: bolder;
-} h3 {
-    font-size: 4em; 
-    font-weight: bold;
-} h4 {
-    font-size: 2.8em; 
-    font-weight: bold;
-} h5 {
-    font-size: 2em; 
-    font-weight: medium;
-} h6 {
-    font-size: 1.4em; 
-    font-weight: medium;
-} p {
-    font-size: 1em; 
-    font-weight: normal;
-} small {
-    font-size: .7em;
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:1vw;
 }
 
-/* A styles apply to links */ 
-a {
+h1 {
+    font-size: 6em;
+    font-weight: bolder, bold;
+    padding:
+} h2 {
+    font-size: 4em; 
+    font-weight: bolder, bold;
+} h3 {
+    font-size: 3em; 
+    font-weight: bold;
+    font-kerning: -15px;
+} h4 {
+    font-size: 2.3em; 
+    font-weight: bold;
+} h5 {
+    font-size: 1.7em; 
+    font-weight: medium;
+} h6 {
+    font-size: 1.3em; 
+    font-weight: medium;
+} p {
+    font-size: .95em; 
+    font-weight: normal;
+    line-height: 1.5em;
+} small {
+    font-size: .7em;
+    font-weight: normal;
+}
+
+a { /* A styles apply to links */ 
     color:var(--purple)
 }
  
@@ -91,7 +107,7 @@ article {
 * all in correct position and resize properly on different devices
 */
 #main {
-    clear: both;
+    display: flex: 1;
 }
 
 /*

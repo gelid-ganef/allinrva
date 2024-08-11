@@ -2,7 +2,7 @@
 <style webc:keep>
 
 #banner {
-    background: var(--aqua);
+    background: var(--banner-background);
     width: 100%;
     vertical-align: top;
     padding: 0;
@@ -12,7 +12,7 @@
     line-height: 0;
     position: absolute;
     top: -1em;
-    color: var(--red);
+    color: var(--banner-subtitle);
     padding: 0px;
     align-self: bottom;
     text-shadow: -2px 2px 8px var(--white);
@@ -36,18 +36,21 @@ a {
     font-size: clamp(1.5em,2.5vw,7em);
     box-shadow: 2px 2px 4px var(--black);
 } li a:link {
-    background-color: var(--green);
+    background-color: var(--banner-button);
 } li a:visited{
-    background-color: var(--green);
+    background-color: var(--banner-button);
 } li a:hover{
-    background-color: var(--ltgreen);
+    background-color: var(--banner-button-pressed);
 } li a:active {
-    background-color: var(--black);
+    background-color: var(--banner-button-current);
 } li a.current {
-    background-color: var(--black);
+    background-color: var(--banner-button-current);
 }
 
 </style>
+<script>
+    
+</script>
 
 <div id=banner>
 <header>
