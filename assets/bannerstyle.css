@@ -99,14 +99,9 @@ article {
 * and change colors when hovered over.
 */
 ul.sideways {
+    display: flex;
     list-style-type: none;
-    margin: 10;
-    padding: 10;
-} ul.sideways li {
-    display: inline;
-    float: left;
-} 
-.container{
+} .container{
     display: flex;
     flex-direction: row;
     align-items: center;

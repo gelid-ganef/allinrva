@@ -1,38 +1,37 @@
-<!--the banner class: logo, brand, navbar-->
+<!--the top-banner component: logo, brand, navbar-->
 <style webc:keep>
+
 #banner {
     background: var(--aqua);
-    min-width: 100%;
-    height: 300px;
+    width: 100%;
     vertical-align: top;
     padding: 0;
-    position: relative;
 } .sub {
     font-size: clamp(2em,6vw,20em);
+    position: relative;
+    top: -1em;
     color: var(--red);
-    display: inline-block;
     padding: 10px;
     align-self: bottom;
     text-shadow: -2px 2px 8px var(--white);
-}.logo {
-    box-shadow: 2px 2px 8px var(--white);
-} #navbar {
     position: relative;
-    top: -16px;
-    left: calc(5vw - 75px);
-    padding: 0px;
-    margin: 0px;
-} li a {
-    display: block;
-    text-align: center;
+} .logo {
+    box-shadow: 2px 2px 8px var(--white);
+} nav {
+} ul{
+    justify-content: center;
+    flex-shrink: 1;
+} li {
+    align-items: center;
+}
+a {
     padding: 1vw;
+    margin: 1vw;
+    display:inline-block;
     text-decoration: none;
     color: currentColor;
-    box-shadow: 2px 2px 4px var(--black);
     font-size: clamp(1em,2.5vw,7em);
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 15px;
+    box-shadow: 2px 2px 4px var(--black);
 } li a:link {
     background-color: var(--green);
 } li a:visited{
@@ -44,19 +43,20 @@
 } li a.current {
     background-color: var(--black);
 }
+
 </style>
 
 <div id=banner>
 <header>
     <img class="logo" src="/assets/flag_logo.webp" ; alt="All In!" ; height=200 />
-    <span class="sub">events in RVA</span>
+    &nbsp;<span class="sub">events&nbsp;in&nbsp;RVA</span>
 </header>
-<div id=navbar><nav>
+<nav>
     <ul class="sideways">
         <li><a class="current" href="/index.html">home</a></li>
-        <li><a href="/about">about us</a></li>
+        <li><a href="/about">about&nbsp;us</a></li>
         <li><a href="/blog">stories</a></li>
-        <li><a href="/events">plan an event</a></li>
-        <li><a href="/volunteer">get involved</a></li>
+        <li><a href="/events">plan&nbsp;an&nbsp;event</a></li>
+        <li><a href="/volunteer">get&nbsp;involved</a></li>
     </ul>
-</nav></div></div>
+</nav></div>
