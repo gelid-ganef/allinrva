@@ -68,6 +68,7 @@ a {
 img {
     max-width: 90vw;
     max-height: 90vh;
+    margin: 1vw;
 }
 
 /* FORM styles apply to user-submittable forms */
@@ -80,8 +81,8 @@ article {
     background-color: var(--white);
     color: var(--black);
     box-shadow: 2px 2px 4px var(--black);
-    padding: 50px;
-    margin: 50px;
+    padding: 4vw;
+    margin: 1vw;
 } 
 
 /*

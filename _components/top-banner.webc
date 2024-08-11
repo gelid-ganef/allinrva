@@ -7,20 +7,23 @@
     vertical-align: top;
     padding: 0;
 } .sub {
-    font-size: clamp(2em,6vw,20em);
-    position: relative;
+    font-size: clamp(3em,6vw,20em);
+    display: inline-block;
+    line-height: 0;
+    position: absolute;
     top: -1em;
     color: var(--red);
-    padding: 10px;
+    padding: 0px;
     align-self: bottom;
     text-shadow: -2px 2px 8px var(--white);
     position: relative;
 } .logo {
     box-shadow: 2px 2px 8px var(--white);
-} nav {
 } ul{
-    justify-content: center;
     flex-shrink: 1;
+    flex-wrap:wrap-reverse;
+    margin: 0;
+    padding: 0;
 } li {
     align-items: center;
 }
@@ -30,7 +33,7 @@ a {
     display:inline-block;
     text-decoration: none;
     color: currentColor;
-    font-size: clamp(1em,2.5vw,7em);
+    font-size: clamp(1.5em,2.5vw,7em);
     box-shadow: 2px 2px 4px var(--black);
 } li a:link {
     background-color: var(--green);
@@ -48,15 +51,15 @@ a {
 
 <div id=banner>
 <header>
-    <img class="logo" src="/assets/flag_logo.webp" ; alt="All In!" ; height=200 />
-    &nbsp;<span class="sub">events&nbsp;in&nbsp;RVA</span>
+    <img class="logo" src="/assets/flag_logo.webp" alt="All In!" height=200 />
+     <span class="sub">events in RVA</span>
 </header>
 <nav>
     <ul class="sideways">
         <li><a class="current" href="/index.html">home</a></li>
-        <li><a href="/about">about&nbsp;us</a></li>
+        <li><a href="/about">about us</a></li>
         <li><a href="/blog">stories</a></li>
-        <li><a href="/events">plan&nbsp;an&nbsp;event</a></li>
-        <li><a href="/volunteer">get&nbsp;involved</a></li>
+        <li><a href="/events">plan an event</a></li>
+        <li><a href="/volunteer">get involved</a></li>
     </ul>
 </nav></div>
