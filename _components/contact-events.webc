@@ -1,9 +1,9 @@
 <h2>Contact us!</h2>
 <form name="contact" method="POST" data-netlify="true">
     <label for="nm">Your Name: </label>
-        <input require id="nm" type="text" name="name" />
+        <input required id="nm" type="text" name="name" />
     <label for="eml">Your Email (or preferred contact): </label>
-        <input require id="eml" type="email" name="email" />
+        <input required id="eml" type="email" name="email" />
     <label for="rsn">Your Reason to party: </label>
         <textarea id="rsn" name="purpose"></textarea>
     <label for="vsn">Your Ideas for your event: </label>
@@ -24,6 +24,6 @@
         <option value="public">I want an event at a park or public space</option>
         <option value="needs location">I don't have a location yet (don't worry All In! can help)</option>
     </select>
-    <button type="submit">Click to tell us about your party!</button>
+    <button type="submit"><h5>Click to tell us about your party!</h5></button>
   <h6>Thanks! Someone will be in contact with you soon!</h6>
 </form>

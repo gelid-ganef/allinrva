@@ -36,6 +36,10 @@
 */
 
 /* BODY styles apply by default to everything */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: radial-gradient(var(--orange),var(--white));
     color: var(--white);
@@ -96,7 +100,7 @@ img {
 /* FORM styles apply to user-submittable forms */
 form {
     display: block;
-    width: 90%;
+    width: 100%;
 } label {
     width: 100%;
     text-align: center;
@@ -132,10 +136,14 @@ article {
 * this makes sure the banner, navbar, and main content areas are
 * all in correct position and resize properly on different devices
 */
+
+/*
 #main {
     display: flex;
     flex-wrap: wrap;
 }
+*/
+
 /*
 * NAVBAR FUNCTIONALITY
 * this makes the navbar buttons display in a list, appear as block items,

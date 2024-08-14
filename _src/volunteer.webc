@@ -24,10 +24,10 @@ title: come volunteer ** All In! Events in RVA
     <h3>Come and join us!</h3>
 <form name="volunteer" method="POST" data-netlify="true">
     <p>
-        <label>Your Name: <input type="text" name="name" /></label>
+        <label>Your Name: <input type="text" name="name" required /></label>
     </p>
     <p>
-        <label>Your Email: <input type="email" name="email" /></label>
+        <label>Your Email: <input type="email" name="email" required /></label>
     </p>
     <p>
         <label>Your Role: <select name="role[]" multiple>
@@ -41,7 +41,7 @@ title: come volunteer ** All In! Events in RVA
         <label>Message: <textarea name="message"></textarea></label>
     </p>
     <p>
-        <button type="submit">Send</button>
+        <button type="submit"><h5>Drop a line to All In!</h5></button>
     </p>
 </form></article>
 </div>
