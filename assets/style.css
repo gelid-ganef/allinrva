@@ -84,6 +84,11 @@ img {
     max-width: 90vw;
     max-height: 90vh;
     margin: 1vw;
+} img.polaroid {
+    background-color: aliceblue;
+    padding: 1rem 1rem 4rem;
+    box-shadow: 2px 2px 4px var(--black);
+    transform: rotate(3deg);
 }
 
 /* FORM styles apply to user-submittable forms */

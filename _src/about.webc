@@ -21,7 +21,7 @@ title: about us ** All In! Events in RVA
         good time!
     </p>
 </article>
-<img src="/assets/gay_team.webp" alt="Inside on floor Trubbs, Leg, and other All In! team crafting and laughing" />
+<img class="polaroid" src="/assets/gay_team.webp" alt="Inside on floor Trubbs, Leg, and other All In! team crafting and laughing" />
 <article>
     <h3>Our Story</h3>
     <p>Starting with a few small events during the pandemic
@@ -40,7 +40,7 @@ title: about us ** All In! Events in RVA
         A party without exclusion. A party that's <em>All In!</em>
     </p>
 </article>
- <img src="/assets/leg.webp" alt="Leigh Anne outside at event venue, grinning, with blonde pixie cut, black dress" />
+ <img class="polaroid" src="/assets/leg.webp" alt="Leigh Anne outside at event venue, grinning, with blonde pixie cut, black dress" />
  <article>
     <h3>Leigh Anne Zylstra "Leg!"</h3>
     <p>Entrepreneur, influencer, and licensed social worker with a Master's from VCU, Leigh Anne
@@ -50,7 +50,7 @@ title: about us ** All In! Events in RVA
      of friends.
     </p>
 </article>
- <img src="/assets/trubbs.webp" alt="Trubbs inside at event venue, laughing on floor, with close cropped hair" />
+ <img class="polaroid" src="/assets/trubbs.webp" alt="Trubbs inside at event venue, laughing on floor, with close cropped hair" />
  <article>
     <h3>Trouble Medas "Trubbs!"</h3>
     <p>Organizer and activist with 20 years of experience in human services, caring industries,
@@ -60,12 +60,12 @@ title: about us ** All In! Events in RVA
      There are rumors they are currently recording a solo singer-songwriter project.
     </p>
 </article>
- <img src="" alt="pic of suz" />
+ <img class="polaroid" src="" alt="pic of suz" />
  <article>
     <h3>Suzana Chambers "Suzi!"</h3>
     <sticky-note class="green"><em>Suz's bio goes here</em></sticky-note>
 </article>
- <img hidden src="" alt="pic of al" />
+ <img class="polaroid" hidden src="" alt="pic of al" />
  <article hidden>
     <h3> "Al!"</h3>
     <p><em>Al's bio goes here</em>

@@ -26,9 +26,6 @@
 .left p{
 font-size: 30px;
 }
-.right img{
- width: 200px;
-}
 </style>
 
 <div class="footer">
@@ -44,7 +41,7 @@ font-size: 30px;
    </div>
 </div>
 <div class="right">
-    <img src="/assets/logo.webp" alt="All In! logo with pansy. Because pansies are the strongest flower">
+    <img width="200" height="200" src="/assets/logo.webp" alt="All In! logo with pansy. Because pansies are the strongest flower">
 </div>
 
 </article>
