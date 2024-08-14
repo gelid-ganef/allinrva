@@ -95,19 +95,24 @@ img {
 
 /* FORM styles apply to user-submittable forms */
 form {
-    max-width: 90%;
+    display: block;
+    width: 90%;
 } label {
     width: 100%;
     text-align: center;
+    line-height: 3em;
+    font-weight: 600;
 } textarea {
     width: 100%;
     resize: vertical;
+    padding: .75em;
 } select {
     width: 100%;
 } input {
     box-sizing: border-box;
     width: 100%;
-    margin: 2em;
+    margin: 0em;
+    padding: .75em;
 } input, button, textarea, select {
     font: inherit;
 }
@@ -119,6 +124,7 @@ article {
     box-shadow: 2px 2px 4px var(--black);
     padding: 4vw;
     margin: 1vw;
+    max-width: 700px;
 } 
 
 /*
