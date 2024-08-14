@@ -94,14 +94,15 @@ form {
     text-align: center;
 } textarea {
     width: 100%;
-    resize: 
+    resize: vertical;
 } select {
     width: 100%;
-}
-input {
+} input {
     box-sizing: border-box;
     width: 100%;
     margin: 2em;
+} input, button, textarea, select {
+    font: inherit;
 }
 
 /* ARTICLE styles apply to sections of content */
@@ -119,9 +120,9 @@ article {
 * all in correct position and resize properly on different devices
 */
 #main {
-    display: flex: 1;
+    display: flex;
+    flex-wrap: wrap;
 }
-
 /*
 * NAVBAR FUNCTIONALITY
 * this makes the navbar buttons display in a list, appear as block items,
