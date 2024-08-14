@@ -65,8 +65,8 @@ layout: base-layout.html
     <p><em>Suz's bio goes here</em>
     </p>
 </article>
- <img src="" alt="pic of al" />
- <article>
+ <img hidden src="" alt="pic of al" />
+ <article hidden>
     <h3> "Al!"</h3>
     <p><em>Al's bio goes here</em>
     </p>
