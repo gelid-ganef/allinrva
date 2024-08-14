@@ -27,7 +27,7 @@
 } li {
     align-items: center;
 }
-a {
+nav a {
     padding: 1vw;
     margin: 1vw;
     display:inline-block;

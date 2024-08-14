@@ -38,7 +38,8 @@ font-size: 30px;
         <a href="https://instagram.com/all.in.va"> <i class="fa-brands fa-instagram" ></i></a>
         <a href="https://account.venmo.com/u/All_In_RVA"><i class="fa-solid fa-circle-dollar-to-slot"></i></a>
         <a href="https://linktr.ee/all.in.va">tree <i class="fa-solid fa-link"></i></a>
-   </div>
+    </div>
+    
 </div>
 <div class="right">
     <img width="200" height="200" src="/assets/logo.webp" alt="All In! logo with pansy. Because pansies are the strongest flower">

@@ -71,12 +71,14 @@ h1 {
     font-size: .95em; 
     font-weight: normal;
     line-height: 1.5em;
+    color: var(--black);
 } small {
     font-size: .7em;
     font-weight: normal;
     line-height: 1.5em;
 } a { /* A styles apply to links */ 
-    color:var(--purple)
+    font-size: .95em;
+    color:var(--black);
 }
 
 /* IMG styles apply to images */
