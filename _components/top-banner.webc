@@ -55,7 +55,7 @@ a {
 <div id=banner>
 <header>
     <img class="logo" src="/assets/flag_logo.webp" alt="All In!" height=200 />
-     <span class="sub">events in RVA</span>
+     <span class="sub"><slot>events in RVA</slot></span>
 </header>
 <nav>
     <ul class="sideways">

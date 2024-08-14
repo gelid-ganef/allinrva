@@ -1,7 +1,8 @@
 ---
 layout: base-layout.html
+title: about us ** All In! Events in RVA
 ---
-<top-banner></top-banner>
+<top-banner>get to know us!</top-banner>
 <!--
 --This is the main content block of page
 --We want this to have most of the important information
@@ -62,8 +63,7 @@ layout: base-layout.html
  <img src="" alt="pic of suz" />
  <article>
     <h3>Suzana Chambers "Suzi!"</h3>
-    <p><em>Suz's bio goes here</em>
-    </p>
+    <sticky-note class="green"><em>Suz's bio goes here</em></sticky-note>
 </article>
  <img hidden src="" alt="pic of al" />
  <article hidden>

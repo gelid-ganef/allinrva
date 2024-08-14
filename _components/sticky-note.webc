@@ -76,10 +76,11 @@ h1 {
 </style>
 
 <div class='post-it' contenteditable>
-    <h1>Sticky note</h1>
-    <ul>
-        <li>You can add elements (contenteditable)</li>
-        <li>Setting sticky-note class = sets the color</li>
-    </ul>
-
+    <slot>
+        <h1>Sticky note</h1>
+        <ul>
+            <li>You can add elements (contenteditable)</li>
+            <li>Setting sticky-note class = sets the color</li>
+        </ul>
+    </slot>
 </div>
